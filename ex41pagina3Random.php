@@ -12,7 +12,6 @@
         if(!isset($_SESSION['ocult'])){
             $_SESSION['ocult'] = random_int(1,100);
         }
-        echo $_SESSION['ocult'];
 		if(!isset($_GET['endevina'])){
 			?>
 				<form>
